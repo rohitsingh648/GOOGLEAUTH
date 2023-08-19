@@ -1,0 +1,125 @@
+
+/* Center content vertically and horizontally */
+body {
+  display: flex;
+  background-color: #a51e38;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Style the container */
+ul.profile-list {
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+/* Style list items */
+ul.profile-list li {
+  margin-bottom: 10px;
+}
+
+/* Style links */
+ul.profile-list li a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+ul.profile-list li a:hover {
+  color: #0056b3;
+}
+
+/* Style heading */
+h1.profile-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style user name */
+ul.profile-list li.username {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+/* Style sign-out link */
+ul.profile-list li.sign-out a {
+  color: #dc3545;
+}
+
+ul.profile-list li.sign-out a:hover {
+  color: #a51e38;
+}
+
+/* Style sign-in and sign-up links */
+ul.profile-list li a.sign-link {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+ul.profile-list li a.sign-link:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Styles for the Sign Up Form */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 480px) {
+  form {
+    width: 90%;
+    max-width: 300px;
+  }
+}
